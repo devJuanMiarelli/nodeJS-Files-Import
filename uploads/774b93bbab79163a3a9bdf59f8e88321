@@ -1,0 +1,56 @@
+- about me 
+
+- professional experience 
+
+- degree 
+
+- certifications and courses
+
+Sou um desenvolvedor front-end com aproximadamente 2 anos de experiência em desenvolvimento, sendo 5 meses de atuação profissional. Possuo conhecimento sólido em desenvolvimento web (HTML, CSS, JavaScript) e em tecnologias como Angular utilizando TypeScript e Python com Django. Também já tive uma breve experiência com React, Next.js e Dart com Flutter, durante projetos pessoais e de minha graduação.
+Ao longo da minha trajetória profissional, tive a oportunidade de participar de alguns projetos que me permitiram aprender também sobre a infraestrutura de sistemas web, incluindo aplicações monitoramento de diretórios e de monitoramento a nível de infraestrutura, como servidores, rede e storage. Nesses contextos, tive a oportunidade de entender como disponibilizar aplicações em servidores web utilizando Nginx e uWSGI, além de gerenciar instâncias EC2 da AWS, que utilizavam sistemas operacionais Linux, onde aprendi comandos para navegação e configuração dessas máquinas.
+Tenho experiência com ferramentas de versionamento de código, como GitLab e GitHub, que utilizei para gerenciar projetos profissionais e pessoais, respectivamente.
+
+
+
+
+
+
+O Enigma Criptográfico da Prova de Trabalho: 
+	Desvendando o Quebra-Cabeça
+
+
+No coração da Prova de Trabalho reside um desafio matemático intrigante, um quebra-cabeça criptográfico que exige poder computacional e um toque de sorte para ser resolvido. Vamos explorar os detalhes dessa peça fundamental:
+
+
+A Natureza do Quebra-Cabeça:
+
+	- Função Hash: O quebra-cabeça se baseia em uma função hash criptográfica, como o SHA-256, que transforma qualquer entrada de dados em uma sequência única de caracteres (hash) de tamanho fixo.
+
+	- Alvo: O desafio consiste em encontrar um valor especial (nonce) que, quando combinado com os dados do bloco e processado pela função hash, gere um hash que seja menor ou igual a um alvo predefinido.
+
+	- Dificuldade: A dificuldade do quebra-cabeça é ajustada pela rede, tornando o alvo mais ou menos exigente. Quanto menor o alvo, mais difícil é encontrar um nonce válido, exigindo mais tentativas e poder 	computacional.
+
+	- O Processo de Mineração:
+		- Construção do Bloco: O minerador reúne as transações pendentes, informações do cabeçalho e um nonce inicial.
+
+		- Cálculo do Hash: O minerador aplica a função hash aos dados do bloco, incluindo o nonce, gerando um hash resultante.
+
+		- Verificação do Alvo: O hash resultante é comparado com o alvo da rede. Se for menor ou igual, o minerador encontrou a solução e pode adicionar o bloco à blockchain.
+
+		- Repetição: Se o hash não atender ao alvo, o minerador incrementa o nonce e repete o processo, realizando bilhões de tentativas por segundo até encontrar a solução.
+	
+	- Características Chave:
+		- Assimetria Computacional: É fácil verificar se um hash atende ao alvo, mas extremamente difícil encontrá-lo, exigindo um esforço computacional massivo.
+
+		- Probabilidade: A mineração é um jogo de probabilidade. Quanto maior o poder computacional do minerador, maiores suas chances de encontrar a solução primeiro.
+
+		- Ajuste de Dificuldade: A rede ajusta a dificuldade do quebra-cabeça periodicamente para manter o tempo médio de mineração constante, garantindo a estabilidade da blockchain.
+
+
+	- Exemplo Simplificado:
+		- Imagine que o alvo seja "começar com três zeros". O minerador precisa encontrar um nonce que, combinado com os dados do bloco, gere um hash como "000abc123...".
+		
+		Implicações:
+			- Segurança: A dificuldade do quebra-cabeça torna ataques economicamente inviáveis, pois o atacante precisaria de um poder computacional superior ao da rede combinada para reescrever a 			blockchain.
+
+			- Consumo de Energia: A busca incessante por soluções consome uma quantidade significativa de energia, gerando debates sobre a sustentabilidade da PoW.
